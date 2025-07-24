@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AGORA – Diskussionen aus Hamburgs Straßen</title>
+    <link>https://agora-hamburg.de</link>
+    <language>de-de</language>
+    <copyright>© Nathan Buss / AGORA Hamburg</copyright>
+    <itunes:author>Nathan Buss</itunes:author>
+    <itunes:summary>AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln. Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas. Alle Infos unter: https://agora-hamburg.de</itunes:summary>
+    <description>AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+
+Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+
+Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger.
+
+Alle Infos unter: https://agora-hamburg.de
+
+Kontakt: diskussion@agora-hamburg.de</description>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Nathan Buss</itunes:name>
+      <itunes:email>diskussion@agora-hamburg.de</itunes:email>
+    </itunes:owner>
+    <atom:link href="https://agora-hamburg.github.io/Podcast/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- Beispiel-Episode -->
+    <item>
+      <title>Beispiel-Episode – Was ist Meinungsfreiheit wert?</title>
+      <description>Dies ist eine Beispiel-Episode. Ersetze diesen Text durch die Beschreibung deiner ersten Diskussion.</description>
+      <pubDate>Mon, 22 Jul 2025 10:00:00 +0200</pubDate>
+      <enclosure url="https://example.org/agora-s1d1.mp3" length="12345678" type="audio/mpeg"/>
+      <guid isPermaLink="false">agora-s1d1</guid>
+    </item>
+
+  </channel>
+</rss>
