@@ -16,14 +16,15 @@
       <itunes:name>Nathan Buss</itunes:name>
       <itunes:email>diskussion@agora-hamburg.de</itunes:email>
     </itunes:owner>
-    <itunes:category text="Gesellschaft und Kultur">
-      <itunes:category text="Philosophie"/>
+    <itunes:category text="Society & Culture">
+      <itunes:category text="Philosophy"/>
     </itunes:category>
     <itunes:image href="https://agora-hamburg.github.io/Podcast/Podcast_Cover.jpg"/>
     <atom:link href="https://agora-hamburg.github.io/Podcast/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>Heberümpfe statt Elbvertiefung? | Rudolf-Peter | 23 S10D1</title>
+      <link>https://youtu.be/IFzJTSek0iw</link>
       <itunes:subtitle>Rudolf-Peter und ich diskutieren das Anheben von Containerschiffen mit Heberümpfen als Alternative zur Elbvertiefung.</itunes:subtitle>
       <itunes:summary>[...]</itunes:summary>
       <description>[...]</description>
@@ -36,9 +37,10 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>22:49</itunes:duration>
+
       <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
       <podcast:person role="guest">Rudolf-Peter</podcast:person>
-      <podcast:location lat="53.550616" lon="9.993092">Hamburg, Rathausmarkt</podcast:location>
+      <podcast:location lat="53.5827" lon="9.9514">Hamburg, Rathausmarkt</podcast:location>
       <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
     </item>
 
