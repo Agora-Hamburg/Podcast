@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>AGORA – Diskussionen aus Hamburgs Straßen</title>
     <link>https://agora-hamburg.de</link>
     <language>de-de</language>
     <copyright>© Nathan Buss / AGORA Hamburg</copyright>
     <itunes:author>Nathan Buss</itunes:author>
-    <itunes:summary>AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
-
-Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
-
-Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger.
-
-Alle Infos unter: https://agora-hamburg.de
-
-Kontakt: diskussion@agora-hamburg.de</itunes:summary>
-    <description>AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
-
-Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
-
-Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger.
-
-Alle Infos unter: https://agora-hamburg.de
-
-Kontakt: diskussion@agora-hamburg.de</description>
+    <itunes:summary>AGORA ist eine Plattform für öffentliche Diskussion, [...]</itunes:summary>
+    <description>AGORA ist eine Plattform für öffentliche Diskussion, [...]</description>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Nathan Buss</itunes:name>
@@ -37,66 +22,11 @@ Kontakt: diskussion@agora-hamburg.de</description>
     <itunes:image href="https://agora-hamburg.github.io/Podcast/Podcast_Cover.jpg"/>
     <atom:link href="https://agora-hamburg.github.io/Podcast/feed.xml" rel="self" type="application/rss+xml"/>
 
-    <!-- Erste echte Folge -->
     <item>
       <title>Heberümpfe statt Elbvertiefung? | Rudolf-Peter | 23 S10D1</title>
       <itunes:subtitle>Rudolf-Peter und ich diskutieren das Anheben von Containerschiffen mit Heberümpfen als Alternative zur Elbvertiefung.</itunes:subtitle>
-      <itunes:summary>Rudolf-Peter und ich diskutieren das Anheben von Containerschiffen mit Heberümpfen als Alternative zur Elbvertiefung.
-
-Video unter: https://youtu.be/IFzJTSek0iw
-
-------------------------------------------
-
-Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg
-
-------------------------------------------
-
-Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;ctz=Europe%2FBerlin
-
-------------------------------------------
-
-AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
-
-Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
-
-Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger.
-
-------------------------------------------
-
-Youtube: https://www.youtube.com/@AGORAHamburg
-Patreon: https://www.patreon.com/AGORAHamburg
-Instagram: https://www.instagram.com/agora.hamburg/
-Facebook: https://www.facebook.com/profile.php?id=61550702242106
-TikTok: https://www.tiktok.com/@agora_hamburg
-Geschäftliche Mailadresse: diskussion@agora-hamburg.de</itunes:summary>
-      <description>Rudolf-Peter und ich diskutieren das Anheben von Containerschiffen mit Heberümpfen als Alternative zur Elbvertiefung.
-
-Video unter: https://youtu.be/IFzJTSek0iw
-
-------------------------------------------
-
-Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg
-
-------------------------------------------
-
-Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;ctz=Europe%2FBerlin
-
-------------------------------------------
-
-AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
-
-Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
-
-Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger.
-
-------------------------------------------
-
-Youtube: https://www.youtube.com/@AGORAHamburg
-Patreon: https://www.patreon.com/AGORAHamburg
-Instagram: https://www.instagram.com/agora.hamburg/
-Facebook: https://www.facebook.com/profile.php?id=61550702242106
-TikTok: https://www.tiktok.com/@agora_hamburg
-Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
+      <itunes:summary>[...]</itunes:summary>
+      <description>[...]</description>
       <pubDate>Tue, 12 Sep 2023 15:00:00 +0200</pubDate>
       <enclosure url="https://archive.org/download/23-s-10-d-1-sound/23_S10D1_Sound.mp3" length="16437312" type="audio/mpeg"/>
       <guid isPermaLink="false">23-S10D1</guid>
@@ -106,6 +36,10 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>22:49</itunes:duration>
+      <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+      <podcast:person role="guest">Rudolf-Peter</podcast:person>
+      <podcast:location lat="53.5827" lon="9.9514">Hamburg, Rathausmarkt</podcast:location>
+      <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
     </item>
 
   </channel>
