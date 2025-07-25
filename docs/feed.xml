@@ -32,8 +32,8 @@ Kontakt: diskussion@agora-hamburg.de</description>
       <itunes:name>Nathan Buss</itunes:name>
       <itunes:email>diskussion@agora-hamburg.de</itunes:email>
     </itunes:owner>
-    <itunes:category text="Gesellschaft und Kultur">
-      <itunes:category text="Philosophie"/>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy"/>
     </itunes:category>
     <itunes:image href="https://agora-hamburg.github.io/Podcast/Podcast_Cover.jpg"/>
     <atom:link href="https://agora-hamburg.github.io/Podcast/feed.xml" rel="self" type="application/rss+xml"/>
@@ -52,7 +52,7 @@ Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg
 
 ------------------------------------------
 
-Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&ctz=Europe%2FBerlin
+Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;ctz=Europe%2FBerlin
 
 ------------------------------------------
 
@@ -80,7 +80,7 @@ Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg
 
 ------------------------------------------
 
-Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&ctz=Europe%2FBerlin
+Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;ctz=Europe%2FBerlin
 
 ------------------------------------------
 
