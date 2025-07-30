@@ -1,0 +1,30 @@
+name: Podcast veröffentlichen
+
+on:
+  schedule:
+    - cron: '0 14 */3 * *'  # Alle 3 Tage um 14:00 UTC (15 MEZ / 16 MESZ)
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository klonen
+        uses: actions/checkout@v3
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Script ausführen (echte Veröffentlichung)
+        run: node scripts/publishNextEpisodes.js
+
+      - name: Änderungen committen und pushen
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs/feed.xml
+          git commit -m "Automatisch veröffentlichte Folge(n)"
+          git push
