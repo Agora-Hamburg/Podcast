@@ -1,0 +1,20 @@
+name: Teste Feed-Dry-Run
+
+on:
+  workflow_dispatch:  # Manuell über GitHub auslösbar
+
+jobs:
+  dry-run-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository klonen
+        uses: actions/checkout@v3
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Dry-Run-Script ausführen
+        run: node scripts/publishNextEpisodes.js --dry-run
