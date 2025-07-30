@@ -94,7 +94,7 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
 
       <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
       <podcast:person role="guest">Rudolf-Peter</podcast:person>
-      <podcast:location lat="53.5827" lon="9.9514">Hamburg, Rathausmarkt</podcast:location>
+      <podcast:location lat="53.5505" lon="9.9931">Hamburg, Rathausmarkt</podcast:location>
       <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
     </item>
 
