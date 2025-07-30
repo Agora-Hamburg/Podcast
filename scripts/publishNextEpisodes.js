@@ -5,6 +5,7 @@ const path = require('path');
 const MAX_NEW_ITEMS = 2;
 const EPISODES_DIR = path.join(__dirname, '../docs/Episoden');
 const FEED_PATH = path.join(__dirname, '../docs/feed.xml');
+const isDryRun = process.argv.includes('--dry-run');
 
 // Hilfsfunktion: Einrückung für lesbare XML
 function indent(str, level = 2) {
@@ -107,23 +108,21 @@ function main() {
     .readdirSync(EPISODES_DIR)
     .filter(f => f.endsWith('.json'))
     .sort((a, b) => {
-  const jsonA = JSON.parse(fs.readFileSync(path.join(EPISODES_DIR, a), 'utf8'));
-  const jsonB = JSON.parse(fs.readFileSync(path.join(EPISODES_DIR, b), 'utf8'));
+      const jsonA = JSON.parse(fs.readFileSync(path.join(EPISODES_DIR, a), 'utf8'));
+      const jsonB = JSON.parse(fs.readFileSync(path.join(EPISODES_DIR, b), 'utf8'));
 
-  const matchA = jsonA.Nummer?.match(/\d+/g);
-  const matchB = jsonB.Nummer?.match(/\d+/g);
+      const matchA = jsonA.Nummer?.match(/\d+/g);
+      const matchB = jsonB.Nummer?.match(/\d+/g);
 
-  if (!matchA || !matchB || matchA.length < 3 || matchB.length < 3) return 0;
+      if (!matchA || !matchB || matchA.length < 3 || matchB.length < 3) return 0;
 
-  const [jahrA, sA, dA] = matchA.map(Number);
-  const [jahrB, sB, dB] = matchB.map(Number);
+      const [jahrA, sA, dA] = matchA.map(Number);
+      const [jahrB, sB, dB] = matchB.map(Number);
 
-  if (jahrA !== jahrB) return jahrA - jahrB;
-  if (sA !== sB) return sA - sB;
-  return dA - dB;
-});
-
-
+      if (jahrA !== jahrB) return jahrA - jahrB;
+      if (sA !== sB) return sA - sB;
+      return dA - dB;
+    });
 
   const newItems = [];
 
@@ -135,7 +134,7 @@ function main() {
 
     if (!json.guid || publishedGuids.includes(json.guid)) continue;
 
-    newItems.push(jsonToItem(json));
+    newItems.push({ filename: file, xml: jsonToItem(json) });
   }
 
   if (newItems.length === 0) {
@@ -143,9 +142,18 @@ function main() {
     return;
   }
 
-  const updatedFeed = insertItemsIntoFeed(feedXml, newItems.map(i => indent(i, 2)));
-  fs.writeFileSync(FEED_PATH, updatedFeed);
-  console.log(`✅ ${newItems.length} neue Episode(n) veröffentlicht.`);
+  if (isDryRun) {
+    console.log(`🧪 Dry-Run: ${newItems.length} Episoden **würden** veröffentlicht:\n`);
+    for (const item of newItems) {
+      console.log(`→ ${item.filename}:\n`);
+      console.log(indent(item.xml, 2));
+      console.log('\n---\n');
+    }
+  } else {
+    const updatedFeed = insertItemsIntoFeed(feedXml, newItems.map(i => indent(i.xml, 2)));
+    fs.writeFileSync(FEED_PATH, updatedFeed);
+    console.log(`✅ ${newItems.length} neue Episode(n) veröffentlicht.`);
+  }
 }
 
 main();
