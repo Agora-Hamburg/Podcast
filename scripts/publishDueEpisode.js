@@ -52,7 +52,7 @@ function jsonToItem(json) {
 
   if (json["Gast 2"]) {
     personBlock.push(
-      `<podcast:person role="guest">${json["Gast 2"]}</podcast:person>`
+      `<podcast:person role="guest"${json["Gast 2 Link"] ? ` href="${json["Gast 2 Link"]}"` : ""}>${json["Gast 2"]}</podcast:person>`
     );
   }
 
