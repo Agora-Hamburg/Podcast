@@ -2,8 +2,8 @@ name: Veröffentlichungszeit prüfen
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Alle 15 Minuten
-  workflow_dispatch:         # Auch manuell auslösbar
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   publish-due:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Repository klonen
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.N8N }}
 
       - name: Node einrichten
         uses: actions/setup-node@v4
@@ -25,6 +27,5 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.N8N }}@github.com/${{ github.repository }}
           git add docs/feed.xml || true
           git diff --cached --quiet || (git commit -m "📡 Automatische Veröffentlichung fälliger Episode" && git push)
