@@ -25,5 +25,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.N8N }}@github.com/${{ github.repository }}
           git add docs/feed.xml || true
           git diff --cached --quiet || (git commit -m "📡 Automatische Veröffentlichung fälliger Episode" && git push)
