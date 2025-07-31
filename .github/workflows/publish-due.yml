@@ -1,0 +1,29 @@
+name: Veröffentlichungszeit prüfen
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Alle 15 Minuten
+  workflow_dispatch:         # Auch manuell auslösbar
+
+jobs:
+  publish-due:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository klonen
+        uses: actions/checkout@v3
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Script ausführen
+        run: node scripts/publishDueEpisode.js
+
+      - name: Änderungen committen (falls Feed aktualisiert wurde)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs/feed.xml || true
+          git diff --cached --quiet || (git commit -m "📡 Automatische Veröffentlichung fälliger Episode" && git push)
