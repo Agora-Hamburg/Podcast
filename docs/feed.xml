@@ -91,6 +91,7 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>23:16</itunes:duration>
+      <itunes:keywords>agora, demokratie, politik, hamburg</itunes:keywords>
 
       <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
       <podcast:person role="guest">Rudolf-Peter</podcast:person>
