@@ -29,62 +29,20 @@
     "diskussion"
   ],
   "Timestamps": [
-    {
-      "time": "00:00",
-      "label": "- Intro"
-    },
-    {
-      "time": "00:14",
-      "label": "- Zu viel AfD in Deutschland"
-    },
-    {
-      "time": "00:53",
-      "label": "- Demo auf dem Rathausmarkt"
-    },
-    {
-      "time": "01:35",
-      "label": "- Warum kümmert die AfD die Leute nicht?"
-    },
-    {
-      "time": "03:55",
-      "label": "- Gefahr für Demokratie damals und heute"
-    },
-    {
-      "time": "05:49",
-      "label": "- Der Rechtsruck"
-    },
-    {
-      "time": "10:17",
-      "label": "- Abschiebung nach Afrika"
-    },
-    {
-      "time": "11:34",
-      "label": "- Wieviel Rückhalt hat die Demokratie?"
-    },
-    {
-      "time": "14:05",
-      "label": "- Wie gut geht es uns?"
-    },
-    {
-      "time": "16:03",
-      "label": "- Werden wir unglücklicher?"
-    },
-    {
-      "time": "17:49",
-      "label": "- Warum werden Menschen unglücklich?"
-    },
-    {
-      "time": "19:52",
-      "label": "- Warum wählt man AfD?"
-    },
-    {
-      "time": "29:02",
-      "label": "- Wie reagiert man auf die AfD?"
-    },
-    {
-      "time": "33:41",
-      "label": "- Outro"
-    }
-  ],
+  { "start": "00:00", "title": "Intro" },
+  { "start": "00:14", "title": "Zu viel AfD in Deutschland" },
+  { "start": "00:53", "title": "Demo auf dem Rathausmarkt" },
+  { "start": "01:35", "title": "Warum kümmert die AfD die Leute nicht?" },
+  { "start": "03:55", "title": "Gefahr für Demokratie damals und heute" },
+  { "start": "05:49", "title": "Der Rechtsruck" },
+  { "start": "10:17", "title": "Abschiebung nach Afrika" },
+  { "start": "11:34", "title": "Wieviel Rückhalt hat die Demokratie?" },
+  { "start": "14:05", "title": "Wie gut geht es uns?" },
+  { "start": "16:03", "title": "Werden wir unglücklicher?" },
+  { "start": "17:49", "title": "Warum werden Menschen unglücklich?" },
+  { "start": "19:52", "title": "Warum wählt man AfD?" },
+  { "start": "29:02", "title": "Wie reagiert man auf die AfD?" },
+  { "start": "33:41", "title": "Outro" }
+],
   "Nummer": "24_S2D1"
 }
