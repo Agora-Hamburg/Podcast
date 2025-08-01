@@ -11,6 +11,29 @@ function parsePubDate(str) {
   return isNaN(parsed.getTime()) ? null : parsed;
 }
 
+function formatPubDate(dateInput) {
+  const date = new Date(dateInput);
+  if (isNaN(date.getTime())) return '';
+
+  const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                      'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+  const day = dayNames[date.getUTCDay()];
+  const dateNum = String(date.getUTCDate()).padStart(2, '0');
+  const month = monthNames[date.getUTCMonth()];
+  const year = date.getUTCFullYear();
+
+  const hours = String(date.getUTCHours()).padStart(2, '0');
+  const minutes = String(date.getUTCMinutes()).padStart(2, '0');
+  const seconds = String(date.getUTCSeconds()).padStart(2, '0');
+
+  const tzMatch = String(dateInput).match(/([+-]\d{2}):?(\d{2})/);
+  const timezone = tzMatch ? `${tzMatch[1]}${tzMatch[2]}` : '+0000';
+
+  return `${day}, ${dateNum} ${month} ${year} ${hours}:${minutes}:${seconds} ${timezone}`;
+}
+
 function indent(str, level = 2) {
   return str
     .split('\n')
@@ -87,7 +110,7 @@ function jsonToItem(json) {
   <itunes:subtitle>${escapeXml(json.subtitle)}</itunes:subtitle>
   <itunes:summary>${escapeXml(json["summary/description"])}</itunes:summary>
   <description>${escapeXml(json["summary/description"])}</description>
-  <pubDate>${json.pubDate.trim()}</pubDate>
+  <pubDate>${formatPubDate(json.pubDate)}</pubDate>
   <enclosure url="${json["Sound Link"]}" length="${json["Sound bites"]}" type="${json["File Type"]}" />
   <guid isPermaLink="false">${json.guid}</guid>
   <itunes:image href="${json["Bild Link"]}" />
