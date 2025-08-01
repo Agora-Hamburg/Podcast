@@ -18,6 +18,16 @@ function indent(str, level = 2) {
     .join('\n');
 }
 
+function escapeXml(str) {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 function getPublishedGuids(feedContent) {
   const guidRegex = /<guid[^>]*>(.*?)<\/guid>/g;
   const guids = [];
@@ -40,19 +50,19 @@ function jsonToItem(json) {
 
   if (json["Host"]) {
     personBlock.push(
-      `<podcast:person role="host" href="${json["Host Link"] || ""}">${json["Host"]}</podcast:person>`
+      `<podcast:person role="host" href="${json["Host Link"] || ""}">${escapeXml(json["Host"])}</podcast:person>`
     );
   }
 
   if (json["Gast 1"]) {
     personBlock.push(
-      `<podcast:person role="guest"${json["Gast 1 Link"] ? ` href="${json["Gast 1 Link"]}"` : ""}>${json["Gast 1"]}</podcast:person>`
+      `<podcast:person role="guest"${json["Gast 1 Link"] ? ` href="${json["Gast 1 Link"]}"` : ""}>${escapeXml(json["Gast 1"])}</podcast:person>`
     );
   }
 
   if (json["Gast 2"]) {
     personBlock.push(
-      `<podcast:person role="guest"${json["Gast 2 Link"] ? ` href="${json["Gast 2 Link"]}"` : ""}>${json["Gast 2"]}</podcast:person>`
+      `<podcast:person role="guest"${json["Gast 2 Link"] ? ` href="${json["Gast 2 Link"]}"` : ""}>${escapeXml(json["Gast 2"])}</podcast:person>`
     );
   }
 
@@ -62,7 +72,7 @@ function jsonToItem(json) {
   let chaptersBlock = '';
   if (Array.isArray(json.Timestamps) && json.Timestamps.length > 0) {
     const chapters = json.Timestamps.map(ts =>
-      `<podcast:chapter start="${ts.start}" title="${ts.title}" />`
+      `<podcast:chapter start="${ts.start}" title="${escapeXml(ts.title)}" />`
     ).join('\n    ');
     chaptersBlock = `
   <podcast:chapters version="1.0">
@@ -72,11 +82,11 @@ function jsonToItem(json) {
 
   return `
 <item>
-  <title>${json.title}</title>
+  <title>${escapeXml(json.title)}</title>
   <link>${json.link}</link>
-  <itunes:subtitle>${json.subtitle}</itunes:subtitle>
-  <itunes:summary>${json["summary/description"]}</itunes:summary>
-  <description>${json["summary/description"]}</description>
+  <itunes:subtitle>${escapeXml(json.subtitle)}</itunes:subtitle>
+  <itunes:summary>${escapeXml(json["summary/description"])}</itunes:summary>
+  <description>${escapeXml(json["summary/description"])}</description>
   <pubDate>${json.pubDate.trim()}</pubDate>
   <enclosure url="${json["Sound Link"]}" length="${json["Sound bites"]}" type="${json["File Type"]}" />
   <guid isPermaLink="false">${json.guid}</guid>
@@ -86,10 +96,10 @@ function jsonToItem(json) {
   <itunes:episodeType>full</itunes:episodeType>
   <itunes:explicit>no</itunes:explicit>
   <itunes:duration>${json.Duration}</itunes:duration>
-  ${keywords ? `<itunes:keywords>${keywords}</itunes:keywords>` : ''}
+  ${keywords ? `<itunes:keywords>${escapeXml(keywords)}</itunes:keywords>` : ''}
   ${personBlock.join('\n  ')}
-  <podcast:location lat="${lat}" lon="${lon}">${json.Ort}</podcast:location>
-  <podcast:funding url="${json.Funding}">${json["Funding Satz"]}</podcast:funding>${chaptersBlock}
+  <podcast:location lat="${lat}" lon="${lon}">${escapeXml(json.Ort)}</podcast:location>
+  <podcast:funding url="${json.Funding}">${escapeXml(json["Funding Satz"])}</podcast:funding>${chaptersBlock}
 </item>`;
 }
 
