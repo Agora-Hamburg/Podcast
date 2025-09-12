@@ -2678,5 +2678,82 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Ist Religion undemokratisch? | Sharib &amp; Hammad | 25 S11D2</title>
+    <link>https://youtu.be/qOsFzEoNsbE</link>
+    <itunes:subtitle>Sharib und Hammad diskutieren mit mir, ob Religion im Grundsatz undemokratisch ist und die Konsequenzen für moderne Gesellschaften.</itunes:subtitle>
+    <itunes:summary>Sharib und Hammad diskutieren, ob Religion im Grundsatz undemokratisch ist und die Konsequenzen für moderne Gesellschaften. - 
+  
+  Video unter: https://youtu.be/qOsFzEoNsbE - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Sharib und Hammad diskutieren, ob Religion im Grundsatz undemokratisch ist und die Konsequenzen für moderne Gesellschaften. - 
+  
+  Video unter: https://youtu.be/qOsFzEoNsbE - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 12 Sep 2025 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/25-s-11-d-2-sound/25_S11D2_Sound.mp3" length="27472691" type="audio/mpeg" />
+    <guid isPermaLink="false">25-S11D2</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/25_S11D2.jpg" />
+    <itunes:season>2511</itunes:season>
+    <itunes:episode>2</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>36:24</itunes:duration>
+    <itunes:keywords>agora, demokratie, diskussion, hamburg, islam</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest" href="https://www.revuederreligionen.de/eine-reise-durch-die-islamische-zeit-ein-blick-hinter-die-schlagzeilen/">Sharib</podcast:person>
+    <podcast:person role="guest">Hammad</podcast:person>
+    <podcast:location lat="53.552154325" lon="9.9313210466">Hamburg, Altona</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:06" title="Anmoderation" />
+      <podcast:chapter start="03:18" title="Vorstellung" />
+      <podcast:chapter start="04:46" title="Was ist Religion?" />
+      <podcast:chapter start="08:49" title="Spannung zwischen Religion und Demokratie?" />
+      <podcast:chapter start="12:35" title="Ist Religion überholt?" />
+      <podcast:chapter start="19:43" title="Werte und Religion" />
+      <podcast:chapter start="22:57" title="Widerspruch zwischen Demokratie und Religion?" />
+      <podcast:chapter start="27:18" title="Alkohol und Autorität" />
+      <podcast:chapter start="32:11" title="Religion und Spiritualität" />
+      <podcast:chapter start="36:48" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
