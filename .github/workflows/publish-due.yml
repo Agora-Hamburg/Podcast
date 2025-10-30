@@ -5,15 +5,20 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   publish-due:
     runs-on: ubuntu-latest
 
     steps:
       - name: Repository klonen
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.N8N }}
+          fetch-depth: 0
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Node einrichten
         uses: actions/setup-node@v4
@@ -25,7 +30,29 @@ jobs:
 
       - name: Änderungen committen (falls Feed aktualisiert wurde)
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/feed.xml || true
-          git diff --cached --quiet || (git commit -m "📡 Automatische Veröffentlichung fälliger Episode" && git push)
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: update feed (auto) [skip ci]"
+          else
+            echo "Keine Änderungen – nichts zu committen."
+          fi
+
+      - name: Push (mit Token-Remote, verhindert Username-Prompt)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Remote auf Token-URL setzen
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          # nur pushen, wenn Commits voraus sind
+          if git rev-parse --verify -q HEAD >/dev/null; then
+            git fetch origin "${{ github.ref_name }}" --depth=1 || true
+            if [ -n "$(git log --oneline origin/${{ github.ref_name }}..HEAD 2>/dev/null)" ]; then
+              git push origin "HEAD:${{ github.ref_name }}"
+            else
+              echo "Nichts zu pushen."
+            fi
+          else
+            echo "Kein HEAD vorhanden – nichts zu tun."
+          fi
