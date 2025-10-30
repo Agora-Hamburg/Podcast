@@ -30,29 +30,37 @@ jobs:
 
       - name: Änderungen committen (falls Feed aktualisiert wurde)
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/feed.xml || true
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "chore: update feed (auto) [skip ci]"
+            git commit -m "chore: automatische Veröffentlichung fälliger Episode [skip ci]"
           else
             echo "Keine Änderungen – nichts zu committen."
           fi
 
-      - name: Push (mit Token-Remote, verhindert Username-Prompt)
+      - name: Push (robust mit Fallback auf Default-Branch)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
-          # Remote auf Token-URL setzen
+          set -e
+          # Remote mit Token setzen, damit kein Username-Prompt kommt
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
-          # nur pushen, wenn Commits voraus sind
-          if git rev-parse --verify -q HEAD >/dev/null; then
-            git fetch origin "${{ github.ref_name }}" --depth=1 || true
-            if [ -n "$(git log --oneline origin/${{ github.ref_name }}..HEAD 2>/dev/null)" ]; then
-              git push origin "HEAD:${{ github.ref_name }}"
-            else
-              echo "Nichts zu pushen."
-            fi
+
+          # Ziel-Branch bestimmen:
+          # 1) aus Context (falls vorhanden), 2) aus origin/HEAD, 3) Fallback 'main'
+          BRANCH="$BRANCH_NAME"
+          if [ -z "$BRANCH" ] || [ "$BRANCH" = "HEAD" ]; then
+            BRANCH="$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')"
+          fi
+          BRANCH="${BRANCH:-main}"
+          echo "Pushe auf Branch: $BRANCH"
+
+          # Nur pushen, wenn HEAD Commits enthält, die vor origin/$BRANCH liegen
+          git fetch origin "$BRANCH" --depth=1 || true
+          if [ -n "$(git log --oneline "origin/$BRANCH"..HEAD 2>/dev/null)" ]; then
+            git push origin "HEAD:$BRANCH"
           else
-            echo "Kein HEAD vorhanden – nichts zu tun."
+            echo "Nichts zu pushen."
           fi
