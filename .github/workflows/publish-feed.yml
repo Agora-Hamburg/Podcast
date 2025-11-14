@@ -11,9 +11,8 @@ jobs:
 
     steps:
       - name: Repository klonen
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.N8N }}
+        uses: actions/checkout@v4   # v3 geht auch, aber v4 ist aktueller
+        # kein token: … mehr nötig
 
       - name: Node einrichten
         uses: actions/setup-node@v4
@@ -25,7 +24,7 @@ jobs:
 
       - name: Änderungen committen und pushen
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/feed.xml || true
           git diff --cached --quiet || (git commit -m "📡 Automatisch veröffentlichte Folge(n)" && git push)
