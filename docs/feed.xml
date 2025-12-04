@@ -4251,5 +4251,80 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Strafe und Vergeltung | David | 25 S18D1</title>
+    <link>https://youtu.be/RniYDcsbjJs</link>
+    <itunes:subtitle>David und ich diskutieren, ob Vergeltung ein Aspekt hinter Strafen ist und sein sollte.</itunes:subtitle>
+    <itunes:summary>David und ich diskutieren, ob Vergeltung ein Aspekt hinter Strafen ist und sein sollte. - 
+  
+  Video unter: https://youtu.be/RniYDcsbjJs - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>David und ich diskutieren, ob Vergeltung ein Aspekt hinter Strafen ist und sein sollte. - 
+  
+  Video unter: https://youtu.be/RniYDcsbjJs - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 12 Dec 2025 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/25-s-18-d-1-sound/25_S18D1_Sound.mp3" length="26109542" type="audio/mpeg" />
+    <guid isPermaLink="false">25-S18D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/25_S18D1.jpg" />
+    <itunes:season>2518</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>34:36</itunes:duration>
+    <itunes:keywords>agora, diskussion, gericht, hamburg, moral, strafe</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">David</podcast:person>
+    <podcast:location lat="53.552154325" lon="9.9313210466">Hamburg, Altona</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:29" title="Strafe als moralischer Ausgleich?" />
+      <podcast:chapter start="04:45" title="Rache und Strafe" />
+      <podcast:chapter start="08:22" title="Angemessene Strafen und Sozialisation" />
+      <podcast:chapter start="10:52" title="Armut, Kriminalität und Strafe" />
+      <podcast:chapter start="13:17" title="Schuld, Strafe und Verantwortung" />
+      <podcast:chapter start="17:34" title="Determinismus und Strafe" />
+      <podcast:chapter start="19:22" title="Finanzkriminalität" />
+      <podcast:chapter start="26:36" title="Ungerechtigkeit und Funktionalismus" />
+      <podcast:chapter start="34:39" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
