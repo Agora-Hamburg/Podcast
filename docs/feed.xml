@@ -4482,5 +4482,80 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Wohnen und Miete | Rangar | 25 S21D2</title>
+    <link>https://youtu.be/zy8_e8vS_a0</link>
+    <itunes:subtitle>Rangar und ich diskutieren den Missstand um Immobilienspekulation, Wohnungsmangel und mögliche Lösungen.</itunes:subtitle>
+    <itunes:summary>Rangar und ich diskutieren den Missstand um Immobilienspekulation, Wohnungsmangel und mögliche Lösungen. - 
+  
+  Video unter: https://youtu.be/zy8_e8vS_a0 - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Rangar und ich diskutieren den Missstand um Immobilienspekulation, Wohnungsmangel und mögliche Lösungen. - 
+  
+  Video unter: https://youtu.be/zy8_e8vS_a0 - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 16 Jan 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/25-s-21-d-2-sound/25_S21D2_Sound.mp3" length="10076815" type="audio/mpeg" />
+    <guid isPermaLink="false">25-S21D2</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/25_S21D2.jpg" />
+    <itunes:season>2521</itunes:season>
+    <itunes:episode>2</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>13:21</itunes:duration>
+    <itunes:keywords>agora, diskussion, hamburg, immobilien, miete, politik</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Rangar</podcast:person>
+    <podcast:location lat="53.552154325" lon="9.9313210466">Hamburg, Altona</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:21" title="Warum kommt die Stadt nicht Investoren zuvor?" />
+      <podcast:chapter start="03:07" title="Warum reden wir nicht über die Wohnsituation?" />
+      <podcast:chapter start="04:44" title="Kapitalertragssteuer auf Immobilien?" />
+      <podcast:chapter start="06:34" title="Städtische Wohnprojekte statt Investoren" />
+      <podcast:chapter start="08:23" title="Mehr Wohnungen durch weniger Auflagen?" />
+      <podcast:chapter start="10:01" title="Wem gehört der Wohnraum?" />
+      <podcast:chapter start="11:35" title="Zu welchen Lösungen sind wir bereit?" />
+      <podcast:chapter start="12:41" title="Airbnb und Wohnraum" />
+      <podcast:chapter start="13:13" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
