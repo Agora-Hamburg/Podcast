@@ -4639,5 +4639,86 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Politkverdrossenheit | Christian | 25 S23D1</title>
+    <link>https://youtu.be/B6M7js9lonM</link>
+    <itunes:subtitle>Christian und ich diskutieren die Probleme rund um politische Kommunikation, Politikverdrossenheit, und was wir dagegen tun können.</itunes:subtitle>
+    <itunes:summary>Christian und ich diskutieren die Probleme rund um politische Kommunikation, Politikverdrossenheit, und was wir dagegen tun können. - 
+  
+  Video unter: https://youtu.be/B6M7js9lonM - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Christian und ich diskutieren die Probleme rund um politische Kommunikation, Politikverdrossenheit, und was wir dagegen tun können. - 
+  
+  Video unter: https://youtu.be/B6M7js9lonM - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 06 Feb 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/25-s-23-d-1-sound/25_S23D1_Sound.mp3" length="28626125" type="audio/mpeg" />
+    <guid isPermaLink="false">25-S23D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/25_S23D1.jpg" />
+    <itunes:season>2523</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>37:54</itunes:duration>
+    <itunes:keywords>agora, diskussion, hamburg, politiker, verdossenheit</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Christian</podcast:person>
+    <podcast:location lat="53.552154325" lon="9.9313210466">Hamburg, Altona</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:29" title="Die Krise der politischen Kommunikation" />
+      <podcast:chapter start="04:18" title="Politik aus Überzeugung?" />
+      <podcast:chapter start="07:08" title="Politik und wir" />
+      <podcast:chapter start="08:11" title="Erfolgreiche Politik und Persönlichkeit" />
+      <podcast:chapter start="13:44" title="Warum setzen sich Persönlichkeiten nicht politisch durch?" />
+      <podcast:chapter start="15:06" title="Müssen wir uns mehr politisch beteiligen?" />
+      <podcast:chapter start="16:58" title="Bestimmung von Kandidaten" />
+      <podcast:chapter start="18:33" title="Mehr politische Teilnahme" />
+      <podcast:chapter start="19:58" title="Distanzieren wir uns von Politik?" />
+      <podcast:chapter start="21:03" title="Haben junge Leute (zu) wenig Einfluss?" />
+      <podcast:chapter start="25:11" title="Woher kommt die Politikverdrossenheit?" />
+      <podcast:chapter start="29:59" title="(Gefühlte) Selbstwirksamkeit" />
+      <podcast:chapter start="31:43" title="Resümee" />
+      <podcast:chapter start="33:58" title="Wirksamkeit vs Ergebnis" />
+      <podcast:chapter start="37:59" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
