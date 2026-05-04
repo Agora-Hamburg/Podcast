@@ -5177,5 +5177,83 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Ist der Mensch gut für die Erde? | Ines | 26 S2D1</title>
+    <link>https://youtu.be/uFQIZcABfZA</link>
+    <itunes:subtitle>Ines und ich diskutieren, ob der Mensch gut für die Erde ist, was das bedeutet und Naturschutz.</itunes:subtitle>
+    <itunes:summary>Ines und ich diskutieren, ob der Mensch gut für die Erde ist, was das bedeutet und Naturschutz. - 
+  
+  Video unter: https://youtu.be/uFQIZcABfZA - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Ines und ich diskutieren, ob der Mensch gut für die Erde ist, was das bedeutet und Naturschutz. - 
+  
+  Video unter: https://youtu.be/uFQIZcABfZA - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 15 May 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/26-s-2-d-1-sound/26_S2D1_Sound.mp3" length="39007027" type="audio/mpeg" />
+    <guid isPermaLink="false">26-S2D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/26_S2D1.jpg" />
+    <itunes:season>2602</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>51:41</itunes:duration>
+    <itunes:keywords>agora, diskussion, hamburg, natur, zivilisation</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Ines</podcast:person>
+    <podcast:location lat="53.5965441751" lon="10.0277439992">Hamburg, Stadtpark</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:50" title="Der Mensch als Ordner?" />
+      <podcast:chapter start="04:20" title="Gut für die Erde?" />
+      <podcast:chapter start="06:30" title="Mensch und Natur" />
+      <podcast:chapter start="09:12" title="Was meint &quot;Der Planet&quot;?" />
+      <podcast:chapter start="10:37" title="Ist der Mensch gut für die Natur?" />
+      <podcast:chapter start="13:56" title="Was braucht der Mensch für Rücksicht?" />
+      <podcast:chapter start="17:33" title="Hat der Mensch Verantwortung für die Natur?" />
+      <podcast:chapter start="28:11" title="Hat der Mensch relevanten Einfluss?" />
+      <podcast:chapter start="32:56" title="Umweltschutz als Anomalie" />
+      <podcast:chapter start="40:47" title="Engagement für Umweltschutz" />
+      <podcast:chapter start="49:09" title="Bewertung jenseits von Verantwortung?" />
+      <podcast:chapter start="51:51" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
