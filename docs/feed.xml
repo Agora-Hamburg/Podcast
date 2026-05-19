@@ -5255,5 +5255,82 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Automatisierung und Bürokratie | Lou | 26 S3D1</title>
+    <link>https://youtu.be/PhaUzNBObuY</link>
+    <itunes:subtitle>Lou und ich diskutieren das Verhältnis von Automatisierung und Bürokratie und wie sie sich gegenseitig ergänzen oder blockieren.</itunes:subtitle>
+    <itunes:summary>Lou und ich diskutieren das Verhältnis von Automatisierung und Bürokratie und wie sie sich gegenseitig ergänzen oder blockieren. - 
+  
+  Video unter: https://youtu.be/PhaUzNBObuY - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Lou und ich diskutieren das Verhältnis von Automatisierung und Bürokratie und wie sie sich gegenseitig ergänzen oder blockieren. - 
+  
+  Video unter: https://youtu.be/PhaUzNBObuY - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 29 May 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/26-s-3-d-1-sound/26_S3D1_Sound.mp3" length="51170509" type="audio/mpeg" />
+    <guid isPermaLink="false">26-S3D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/26_S3D1.jpg" />
+    <itunes:season>2603</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>1:07:51</itunes:duration>
+    
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Lou</podcast:person>
+    <podcast:location lat="53.5662219327" lon="9.9848363985">Hamburg, Campus Uni Hamburg</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:52" title="Automatisierung und Bürokratie" />
+      <podcast:chapter start="07:26" title="KI und Prompting" />
+      <podcast:chapter start="09:25" title="Digitale Arztpraxis?" />
+      <podcast:chapter start="16:53" title="Automatisierung in Deutschland" />
+      <podcast:chapter start="20:54" title="Das deutsche Gesundheitssystem" />
+      <podcast:chapter start="24:06" title="Deutschland digitalisieren" />
+      <podcast:chapter start="28:51" title="Automatisierung und Arbeitsplätze" />
+      <podcast:chapter start="35:32" title="Qualifikation und KI" />
+      <podcast:chapter start="41:24" title="Abhängigkeit durch KI?" />
+      <podcast:chapter start="54:44" title="Wird AI das neue Auto?" />
+      <podcast:chapter start="59:45" title="Die Zukunft mit KI?" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
