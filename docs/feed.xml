@@ -5408,5 +5408,78 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Krieg, Konflikt und Pazifismus | Ade | 26 S4D1</title>
+    <link>https://youtu.be/4SbbGU8bSuA</link>
+    <itunes:subtitle>Ade und ich  diskutieren, ob Pazifismus gegen Kriegstreiberei eine Option ist.</itunes:subtitle>
+    <itunes:summary>Ade und ich  diskutieren, ob Pazifismus gegen Kriegstreiberei eine Option ist. - 
+  
+  Video unter: https://youtu.be/4SbbGU8bSuA - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Ade und ich  diskutieren, ob Pazifismus gegen Kriegstreiberei eine Option ist. - 
+  
+  Video unter: https://youtu.be/4SbbGU8bSuA - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 26 Jun 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/26-s-4-d-1-sound/26_S4D1_Sound.mp3" length="20342374" type="audio/mpeg" />
+    <guid isPermaLink="false">26-S4D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/26_S4D1.jpg" />
+    <itunes:season>2604</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>26:59</itunes:duration>
+    <itunes:keywords>agora, diskussion, frieden, hamburg, krieg</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Ade</podcast:person>
+    <podcast:location lat="53.5965441751" lon="10.0277439992">Hamburg, Stadtpark</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="02:26" title="Braucht Deutschland eine Wehrpflicht?" />
+      <podcast:chapter start="04:54" title="Die NATO und Krieg" />
+      <podcast:chapter start="07:18" title="Wehrpflicht und Gesellschaft" />
+      <podcast:chapter start="09:58" title="Pazifistische Einstellung und Krieg" />
+      <podcast:chapter start="15:58" title="Selbstverteidigung und Pazifismus" />
+      <podcast:chapter start="24:27" title="Pazifismus auf staatlicher Ebene" />
+      <podcast:chapter start="27:30" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
