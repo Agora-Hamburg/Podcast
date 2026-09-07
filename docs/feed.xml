@@ -5780,5 +5780,78 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Ist Jobverlust durch Technik schlecht? | Youheng | 26 S9D1</title>
+    <link>https://youtu.be/k6cEFzGYK-U</link>
+    <itunes:subtitle>Youheng und ich diskutieren, ob Jobverluste durch technischen Fortschritt und KI etwas gutes sind und wie wir damit umgehen können.</itunes:subtitle>
+    <itunes:summary>Youheng und ich diskutieren, ob Jobverluste durch technischen Fortschritt und KI etwas gutes sind und wie wir damit umgehen können. - 
+  
+  Video unter: https://youtu.be/k6cEFzGYK-U - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Youheng und ich diskutieren, ob Jobverluste durch technischen Fortschritt und KI etwas gutes sind und wie wir damit umgehen können. - 
+  
+  Video unter: https://youtu.be/k6cEFzGYK-U - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 18 Sep 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/26-s-9-d-1-sound/26_S9D1_Sound.mp3" length="32610714" type="audio/mpeg" />
+    <guid isPermaLink="false">26-S9D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/26_S9D1.jpg" />
+    <itunes:season>2609</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>43:12</itunes:duration>
+    <itunes:keywords>agora, arbeit, diskussion, hamburg, ki</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Youheng</podcast:person>
+    <podcast:location lat="53.5965441751" lon="10.0277439992">Hamburg, Stadtpark</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:42" title="Ist Verlust von Arbeitsplätzen immer schlecht?" />
+      <podcast:chapter start="05:55" title="Umgang mit Arbeitsplatz-Verlust" />
+      <podcast:chapter start="10:28" title="Unser Verhältnis zu Arbeit" />
+      <podcast:chapter start="17:46" title="Macht-Zentralisierung durch KI?" />
+      <podcast:chapter start="31:05" title="Wie mit Arbeitsplatzverlust umgehen?" />
+      <podcast:chapter start="36:15" title="Ist die KI-Branche wie die Rüstungsindustrie?" />
+      <podcast:chapter start="43:33" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
