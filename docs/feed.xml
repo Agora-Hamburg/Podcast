@@ -5853,5 +5853,34 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Ist AfD wählen das Problem? | Simon | 26 S10D1</title>
+    <link>https://youtu.be/T3RrKRpG408</link>
+    <itunes:subtitle>/data/agora/Session 10 (26)/S10D1</itunes:subtitle>
+    <itunes:summary>/data/agora/Session 10 (26)/S10D1 - 
+  
+  /data/agora/Session 10 (26)/S10D1
+  </itunes:summary>
+    <description>/data/agora/Session 10 (26)/S10D1 - 
+  
+  /data/agora/Session 10 (26)/S10D1
+  </description>
+    <pubDate>Fri, 02 Oct 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/26-s-10-d-1-sound/26_S10D1_Sound.mp3" length="11324621" type="audio/mpeg" />
+    <guid isPermaLink="false">26-S10D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/26_S10D1.jpg" />
+    <itunes:season>2610</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>14:56</itunes:duration>
+    <itunes:keywords>afd, agora, diskussion, hamburg, politik</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Simon</podcast:person>
+    <podcast:location lat="53.552154325" lon="9.9313210466">Hamburg, Altona</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+  </item>
+
 </channel>
 </rss>
