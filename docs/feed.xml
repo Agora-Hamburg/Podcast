@@ -5882,5 +5882,76 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
   </item>
 
+  
+  <item>
+    <title>Religion und Wissenschaft | Imam Sharib Ahmad Blouch | 26 S11D1</title>
+    <link>https://youtu.be/PPmRelLdXiI</link>
+    <itunes:subtitle>Imam Sharib Ahmad Blouch und ich diskutieren, ob Religion und Wissenschaft miteinander vereinbar sind, oder gegensätzlich.</itunes:subtitle>
+    <itunes:summary>Imam Sharib Ahmad Blouch und ich diskutieren, ob Religion und Wissenschaft miteinander vereinbar sind, oder gegensätzlich. - 
+  
+  Video unter: https://youtu.be/PPmRelLdXiI - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Imam Sharib Ahmad Blouch und ich diskutieren, ob Religion und Wissenschaft miteinander vereinbar sind, oder gegensätzlich. - 
+  
+  Video unter: https://youtu.be/PPmRelLdXiI - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 16 Oct 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/26-s-11-d-1-sound/26_S11D1_Sound.mp3" length="56413389" type="audio/mpeg" />
+    <guid isPermaLink="false">26-S11D1</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/26_S11D1.jpg" />
+    <itunes:season>2611</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>1:14:41</itunes:duration>
+    <itunes:keywords>agora, diskussion, hamburg, islam, wissenschaft</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Imam Sharib Ahmad Blouch</podcast:person>
+    <podcast:location lat="53.5654140111" lon="9.9854557571">Hamburg, Stabi (Staatsblbliothek)</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="02:29" title="Islam und Wissenschaft" />
+      <podcast:chapter start="18:21" title="Sind Wissenschaft und Religion gegensätzlich?" />
+      <podcast:chapter start="36:40" title="Religion und Glaube" />
+      <podcast:chapter start="48:38" title="Spiritualität ohne Glauben?" />
+      <podcast:chapter start="58:00" title="Wissenschafltiche Methodik vs Glauben" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
