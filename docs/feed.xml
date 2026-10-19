@@ -5953,5 +5953,81 @@ Geschäftliche Mailadresse: diskussion@agora-hamburg.de</description>
     </podcast:chapters>
   </item>
 
+  
+  <item>
+    <title>Kann KI bewusst werden? | Youheng | 26 S9D2</title>
+    <link>https://youtu.be/I5mo9Iluq0E</link>
+    <itunes:subtitle>Youheng und ich diskutieren, ob KI bewusst sein kann und was das bedeuten würde.</itunes:subtitle>
+    <itunes:summary>Youheng und ich diskutieren, ob KI bewusst sein kann und was das bedeuten würde. - 
+  
+  Video unter: https://youtu.be/I5mo9Iluq0E - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </itunes:summary>
+    <description>Youheng und ich diskutieren, ob KI bewusst sein kann und was das bedeuten würde. - 
+  
+  Video unter: https://youtu.be/I5mo9Iluq0E - 
+  
+  Unterstütze das Projekt unter https://www.patreon.com/AGORAHamburg - 
+  
+  Du findest einen Session-Kalender mit allen Sessions unter https://calendar.google.com/calendar/embed?src=agora.hamburg%40gmail.com&amp;amp;ctz=Europe%2FBerlin - 
+  
+  AGORA ist eine Plattform für öffentliche Diskussion, die dazu einlädt, die eigenen Überzeugungen und Argumente vorzustellen, konstruktiv zu hinterfragen und gegebenenfalls weiterzuentwickeln.
+  
+  Ziel der Plattform ist die Schulung kritischen Denkens und argumentativer Techniken, um eine klarere und differenziertere Perspektive auf eigene und gesellschaftlich diskutierte Positionen zu erlangen, sowie die Förderung eines konstruktiven und belebten gesellschaftlichen Diskussionsklimas.
+  
+  Gründer und Leiter der Plattform ist Nathan Buss, studierter Philosoph und Hamburger. - 
+  
+  Youtube: https://www.youtube.com/@AGORAHamburg - 
+  Patreon: https://www.patreon.com/AGORAHamburg - 
+  Instagram: https://www.instagram.com/agora.hamburg/ - 
+  Facebook: https://www.facebook.com/profile.php?id=61550702242106 - 
+  TikTok: https://www.tiktok.com/@agora_hamburg - 
+  Geschäftliche Mailadresse: diskussion@agora-hamburg.de
+  </description>
+    <pubDate>Fri, 30 Oct 2026 13:00:00 +0200</pubDate>
+    <enclosure url="https://archive.org/download/26-s-9-d-2-sound/26_S9D2_Sound.mp3" length="43620762" type="audio/mpeg" />
+    <guid isPermaLink="false">26-S9D2</guid>
+    <itunes:image href="https://agora-hamburg.github.io/Podcast/Folgenbilder/26_S9D2.jpg" />
+    <itunes:season>2609</itunes:season>
+    <itunes:episode>2</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>57:47</itunes:duration>
+    <itunes:keywords>agora, bewusstsein, diskussion, hamburg, ki</itunes:keywords>
+    <podcast:person role="host" href="https://agora-hamburg.de">Nathan Buss</podcast:person>
+    <podcast:person role="guest">Youheng</podcast:person>
+    <podcast:location lat="53.5965441751" lon="10.0277439992">Hamburg, Stadtpark</podcast:location>
+    <podcast:funding url="https://www.patreon.com/AGORAHamburg">Unterstütze AGORA auf Patreon</podcast:funding>
+    <podcast:chapters version="1.0">
+      <podcast:chapter start="00:00" title="Einstieg" />
+      <podcast:chapter start="01:25" title="Ist KI bewusst?" />
+      <podcast:chapter start="06:12" title="Bewusstsein und Intelligenz" />
+      <podcast:chapter start="09:07" title="Im Zweifel für Bewusstsein?" />
+      <podcast:chapter start="13:50" title="Bessere Welt durch KI-Rechte?" />
+      <podcast:chapter start="20:45" title="Wie würde Bewusstsein bei KIs funktionieren?" />
+      <podcast:chapter start="29:07" title="Erinnerung und Bewusstsein" />
+      <podcast:chapter start="38:59" title="Implikationen von bewusster KI" />
+      <podcast:chapter start="45:23" title="Training und Bewusstsein" />
+      <podcast:chapter start="54:19" title="Abschluss" />
+      <podcast:chapter start="58:07" title="Outro" />
+    </podcast:chapters>
+  </item>
+
 </channel>
 </rss>
